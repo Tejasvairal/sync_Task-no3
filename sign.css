@@ -1,0 +1,98 @@
+.head{
+    margin: 0px;
+    padding: 20px;
+    align-items: center;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-image: url(images/0101.jpg);
+    background-size: cover;
+    position: fixed;
+}
+.container{
+    margin: 70px;
+    padding-left: 525px;
+    width: 25%;
+    padding-right: 50px;
+    margin-top: 200px;
+
+}
+.signup-container{
+    margin: 5px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 3px 2px 3px rgb(0, 0, 0), -4px -2px 3px rgb(0 0 0);
+    background: linear-gradient(#2f5cff, #dbf4ff);
+    background-size: cover;
+
+}
+
+h1{
+    color: rgb(237, 31, 55);
+   font-size: 250%;
+   font-display: 200%;
+}
+.user-container{
+    font-size: 20px;
+    color: rgb(9, 10, 11);
+    align-items: center;
+
+}
+.lastname-container{
+    font-size: 18px;
+    color: black;
+    align-items: center;
+}
+.mailid-container{
+    font-size: 18px;
+    color: black;
+    align-items: center;
+}
+.password-container{
+    font-size: 20px;
+    color: rgb(9, 11, 12);
+
+}
+a{
+    font-size: 15px;
+    align-items: center;
+}
+
+.login-container{
+    padding-left: 100px;
+    width: 0p;
+}
+
+input[type="button"] {
+    background-color: rgb(255, 0, 123);
+    color: rgb(250, 241, 233);
+    padding: 7px 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(96, 206, 160);
+    box-shadow: 3px 2px 3px rgb(253, 4, 4), -3px -2px 3px rgb(0 0 0);
+}
+input[type="button"]:hover{
+    background-color: rgb(102, 255, 0);
+    color: rgb(0, 0, 0);
+}
+input[type="text"]{
+    margin: 0px;
+    padding: 0px;
+}
+input[type="mail"]{
+    margin: 9.1px;
+    padding-left: 10px ;
+}
+input[type="password"]{
+    margin: 1px;
+    padding-left: 0px ;
+}
